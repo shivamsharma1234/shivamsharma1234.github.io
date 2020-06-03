@@ -9136,6 +9136,29 @@ textarea.form-control {
     .ftco-footer-social li a:hover {
       color: #fff; }
 
+.ftco-footer-social-black li {
+  list-style: none;
+  margin: 0 10px 0 0;
+  display: inline-block; }
+  .ftco-footer-social-black li a {
+    height: 50px;
+    width: 50px;
+    display: block;
+    float: left;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    position: relative; }
+    .ftco-footer-social-black li a span {
+      position: absolute;
+      font-size: 26px;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+    .ftco-footer-social-black li a:hover {
+      color: #343a40; }
+
 .footer-small-nav > li {
   display: inline-block; }
   .footer-small-nav > li a {
